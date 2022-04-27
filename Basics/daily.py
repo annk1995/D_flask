@@ -9,7 +9,7 @@ toDo={
           "sunday":"eat chicken"
  }
 def get_all_to_do():
-     return f"<ul>{to_do_do}</ul>"
+     return f"<ul>{to_do_do()}</ul>"
 def to_do_do():
     li=""
     for key in toDo:
